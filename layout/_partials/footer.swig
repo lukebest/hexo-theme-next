@@ -41,7 +41,8 @@
   <div class="powered-by">{#
   #}{{ __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}{#
   #}{% if theme.footer.powered.version %} v{{ hexo_env('version') }}{% endif %}{#
- #}</div>
+ #}<i class="fa fa-user-md"></i>
+  </div>
 {% endif %}
 
 {% if theme.footer.powered.enable and theme.footer.theme.enable %}
