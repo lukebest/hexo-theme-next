@@ -452,6 +452,7 @@
       {% endif %}
     </footer>
   </div>
+  {{ popular_posts( {} , post ) }}
   {######################}
   {### END POST BLOCK ###}
   {######################}
